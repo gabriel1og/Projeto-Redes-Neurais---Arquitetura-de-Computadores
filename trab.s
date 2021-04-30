@@ -42,4 +42,4 @@ for:            slti $t6, $t0, 5
 
                 j for 
 
-fim:            jr $ra
+fim:            jr $r
