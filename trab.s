@@ -10,7 +10,7 @@ incremento:	.float 1.0
                 .text
 
 main:	        lwc1 $f0, peso1 	# registrador com valor do primeiro peso
-	        lwc1 $f1, peso2 	#registrador com valor do segundo peso
+	        lwc1 $f1, peso2 	# registrador com valor do segundo peso
                 lwc1 $f2, taxa_aprende 	# registrador da taxa de aprendizagem
 	        lwc1 $f3, zero 	# registrador da "entrada" do treinamento
                 addi $t0, $zero, 1	# registrador do indice do for
